@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  margin-bottom: 2em;
+}
+
+.footer a {
+  color: black;
+}
