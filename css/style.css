@@ -14,3 +14,7 @@ body {
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
+
+.text {
+  text-align: center;
+}
