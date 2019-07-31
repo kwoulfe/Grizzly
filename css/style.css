@@ -56,6 +56,15 @@ body {
   display: block;
 }
 
+.nav-item {
+  padding: 0 1em 0 1em;
+}
+
+.nav-link,
+.nav-link:hover {
+  color: black;
+}
+
 .text {
   text-align: center;
 }
