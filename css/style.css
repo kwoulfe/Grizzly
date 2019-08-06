@@ -157,6 +157,18 @@ ul {
   display: block;
 }
 
+.navbar-toggler {
+  border-radius: 0;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.navbar-toggler:link,
+.navbar-toggler:visited {
+  /* border: none; */
+  outline: none;
+}
+
 .nav-link {
   /* color: rgba(22, 37, 68, 0.699); */
   color: grey;
