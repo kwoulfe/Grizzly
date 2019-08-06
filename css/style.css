@@ -215,6 +215,10 @@ p {
 
 /* Contact Form */
 
+.contact {
+  letter-spacing: 1.5px;
+}
+
 form {
   text-align: center;
 }
