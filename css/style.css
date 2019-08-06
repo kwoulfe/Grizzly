@@ -101,12 +101,6 @@ body #canvas {
     margin: 0px auto;
     border-width: 0px !important;
   }
-  .header {
-    /* margin-top: 45px;
-    border-top: solid;
-    border-width: 2px;
-    border-color: rgba(0, 8, 46, 0.699); */
-  }
 }
 
 @media screen and (max-width: 990px) {
@@ -235,4 +229,8 @@ form {
 .btn:active:focus,
 .btn:focus {
   outline: none;
+}
+
+.hpot {
+  display: none;
 }
