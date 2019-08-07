@@ -305,3 +305,9 @@ form {
 .card-img-top {
   border-radius: 0;
 }
+
+/* Project Gallery */
+
+.gallery img {
+  padding-bottom: 25px;
+}
