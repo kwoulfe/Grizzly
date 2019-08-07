@@ -311,3 +311,18 @@ form {
 .gallery img {
   padding-bottom: 25px;
 }
+
+/* About Page */
+
+.office-text img {
+  padding-bottom: 50px;
+}
+
+.about-text {
+  padding-bottom: 25px;
+}
+
+.about {
+  padding-top: 25px;
+  border-top: 2px solid rgba(0, 8, 46, 0.699);
+}
