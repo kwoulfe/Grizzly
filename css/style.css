@@ -213,7 +213,7 @@ p {
   margin-bottom: 0;
 }
 
-/* Contact Form */
+/* Contact Page */
 
 .contact {
   letter-spacing: 1.5px;
@@ -251,7 +251,7 @@ form {
   display: none;
 }
 
-/* Office Section */
+/* Office Page */
 
 .office-text {
   letter-spacing: 0;
@@ -280,4 +280,28 @@ form {
   padding: 0;
   height: 100%;
   width: 100%;
+}
+
+/* Work Page */
+
+.card {
+  padding-bottom: 10px;
+  border: none;
+  text-align: center;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card .btn {
+  color: rgba(0, 8, 46, 0.699);
+}
+
+.card .btn:hover {
+  text-decoration: underline;
+}
+
+.card-img-top {
+  border-radius: 0;
 }
