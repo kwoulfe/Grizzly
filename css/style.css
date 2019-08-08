@@ -140,6 +140,10 @@ body #canvas {
   margin-bottom: 2em;
 }
 
+.logo {
+  max-width: 250px;
+}
+
 .page-divider {
   line-height: 1.6em;
   margin-top: -1.6em;
@@ -153,7 +157,7 @@ ul {
   background-color: #fff;
 }
 
-.dropdown:hover > .dropdown-menu {
+.dropdown:hover>.dropdown-menu {
   display: block;
 }
 
@@ -267,9 +271,11 @@ form {
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+  padding-bottom: 56.25%;
+  /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
 }
-.iframe-container > * {
+
+.iframe-container>* {
   display: block;
   position: absolute;
   top: 0;
