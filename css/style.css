@@ -255,6 +255,11 @@ form {
   display: none;
 }
 
+#formField {
+  border-top: 2px solid rgba(0, 8, 46, 0.699);
+  padding-top: 25px;
+}
+
 /* Office Page */
 
 .office-text {
