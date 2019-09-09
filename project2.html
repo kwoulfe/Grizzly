@@ -1,301 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-145311043-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
 
-      gtag('config', 'UA-145311043-1');
-    </script>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145311043-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link href="css/lightbox.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
+    gtag('config', 'UA-145311043-1');
+  </script>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Project 2 | Grizzly Builders Inc</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon_io/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon_io/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/favicon_io/site.webmanifest" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Architects+Daughter|Delius|Fahkwang|Happy+Monkey|Hind|Overlock|PT+Sans|Russo+One|Stardos+Stencil|Varela+Round|Walter+Turncoat&display=swap"
-      rel="stylesheet"
-    />
-    <script src="js/main.js"></script>
-  </head>
-  <body>
-    <svg id="fader"></svg>
-    <script>
-      fadeInPage();
-    </script>
-    <section id="canvas">
-      <section class="header">
-        <!-- Just an image -->
-        <nav class="navbar">
-          <a class="navbar-brand mx-auto" href="index.html">
-            <img class="img-fluid" src="css/images/logo.jpg" alt="logo" />
-          </a>
-        </nav>
-        <nav class="navbar navbar-light navbar-expand-md">
-          <div class="menu mx-auto">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+  <link href="css/lightbox.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="work.html">Work</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="office.html">Our Office</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div class="page-divider"></div>
+  <title>Project 2 | Grizzly Builders Inc</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="images/favicon_io/site.webmanifest" />
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Delius|Fahkwang|Happy+Monkey|Hind|Overlock|PT+Sans|Russo+One|Stardos+Stencil|Varela+Round|Walter+Turncoat&display=swap"
+    rel="stylesheet" />
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <svg id="fader"></svg>
+  <script>
+    fadeInPage();
+  </script>
+  <section id="canvas">
+    <section class="header">
+      <!-- Just an image -->
+      <nav class="navbar">
+        <a class="navbar-brand mx-auto" href="index.html">
+          <img class="img-fluid" src="css/images/logo.jpg" alt="logo" />
+        </a>
+      </nav>
+      <nav class="navbar navbar-light navbar-expand-md">
+        <div class="menu mx-auto">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="office.html">Our Office</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </section>
-      <section class="mainContent" style="padding-bottom:25px">
-        <div class="container">
-          <div class="row gallery">
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image1.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image1.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image2.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image2.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image3.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image3.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image4.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image4.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <!-- </div>
-          <div class="row gallery"> -->
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image5.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image5.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image6.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image6.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image7.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image7.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image8.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image8.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <!-- </div>
-          <div class="row gallery"> -->
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image9.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image9.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image10.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image10.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image11.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image11.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-            <div class="col-sm-3">
-              <a
-                class="thumbnail"
-                href="css/images/gallery2/image12.jpg"
-                data-lightbox="Hyde"
-              >
-                <img
-                  class="img-fluid"
-                  src="css/images/gallery2/image12.jpg"
-                  alt="photo of kitchen"
-              /></a>
-            </div>
-          </div>
+          <div class="page-divider"></div>
         </div>
-      </section>
-      <section class="footer">
-        <div class="row justify-content-center">
-          <div class="col-sm-12">
-            <p class="credit">
-              <a href="https://kevinwoulfe.com" target="_blank"
-                >WoulfeParade 2019</a
-              >
-            </p>
-          </div>
-        </div>
-      </section>
+      </nav>
     </section>
+    <section class="mainContent" style="padding-bottom:25px">
+      <div class="container">
+        <div class="row gallery">
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image1.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image1.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image2.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image2.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image3.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image3.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image4.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image4.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <!-- </div>
+          <div class="row gallery"> -->
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image5.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image5.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image6.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image6.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image7.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image7.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image8.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image8.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <!-- </div>
+          <div class="row gallery"> -->
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image9.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image9.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image10.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image10.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image11.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image11.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+          <div class="col-sm-3">
+            <a class="thumbnail" href="css/images/gallery2/image12.jpg" data-lightbox="Hyde">
+              <img class="img-fluid" src="css/images/gallery2/image12.jpg" alt="photo of kitchen" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="row justify-content-center">
+        <div class="col-sm-12">
+          <p class="credit">
+            <a href="https://kevinwoulfe.com" target="_blank">WoulfeParade 2019</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </section>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/lightbox-plus-jquery.js"></script>
-    <script>
-      lightbox.option({
-        positionFromTop: 200
-      });
-    </script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/lightbox-plus-jquery.js"></script>
+  <script>
+    lightbox.option({
+      positionFromTop: 100,
+      maxWidth: 1400,
+      alwaysShowNavOnTouchDevices: true,
+      wrapAround: true
+    });
+  </script>
+</body>
+
 </html>
